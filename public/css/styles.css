@@ -1,0 +1,108 @@
+body {
+  font-family: Helvetica Neue,Arial,sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: url('/images/cook.jpg') no-repeat black;
+  -webkit-background-size: 100%;
+       -o-background-size: 100%;
+          background-size: 100%;
+  background-position: -430px 20%;
+  padding: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 300;
+  color: #FFF;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.superlative {
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.btn {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  padding: 0;
+  background-color: #bdc3c7;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.btn .fa {
+  color: #fff;
+  line-height: 120px;
+  font-size: 32px;
+}
+
+.subtitle {
+  font-family: Georgia,Cambria,Times New Roman,Times,serif;
+  font-style: italic;
+  font-weight: 100;
+}
+
+@media only screen
+and (max-width : 320px) {
+  header {
+    background: black;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  .superlative {
+    width: 50%;
+  }
+}
+
+@media only screen
+and (max-width : 1050px) {
+  header {
+    background: black;
+  }
+}
+
+@media only screen
+and (max-width : 620px) {
+  header {
+    background: black;
+    padding: 30px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+}
+
+@media only screen
+and (max-width : 550px) {
+  .superlative {
+    width: 33%;
+  }
+}
+
+@media only screen
+and (max-width : 420px) {
+  .superlative {
+    width: 50%;
+  }
+}
+
