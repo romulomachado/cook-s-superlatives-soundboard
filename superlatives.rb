@@ -9,8 +9,8 @@ class Superlative
       { quote: 'It is really awesome!', file: 'it-is-really-awesome.m4a' },
       { quote: 'It is absolutely gorgeous!', file: 'it-is-absolutely-gorgeous.m4a' },
       { quote: 'It has never been done before!', file: 'it-has-never-been-done-before.m4a' },
-      { quote: 'It is so cool and so simple!', file: 'it-is-so-cool-and-so-simple.m4a' }
-      # { quote: '', file: '' },
+      { quote: 'It is so cool and so simple!', file: 'it-is-so-cool-and-so-simple.m4a' },
+      { quote: 'The fit and finish are absolutely fabulous!', file: 'the-fit-and-finish-are-absolutely-fabulous.m4a' }
       # { quote: '', file: '' },
       # { quote: '', file: '' },
       # { quote: '', file: '' },
