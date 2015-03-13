@@ -11,8 +11,8 @@ class Superlative
       { quote: 'It has never been done before!', file: 'it-has-never-been-done-before.m4a' },
       { quote: 'It is so cool and so simple!', file: 'it-is-so-cool-and-so-simple.m4a' },
       { quote: 'The fit and finish are absolutely fabulous!', file: 'the-fit-and-finish-are-absolutely-fabulous.m4a' },
-      { quote: 'Something unbelievable unique.', file: 'something-unbelievable-unique.m4a' }
-      # { quote: '', file: '' },
+      { quote: 'Something unbelievable unique.', file: 'something-unbelievable-unique.m4a' },
+      { quote: 'This beautiful custom table!', file: 'this-beautiful-custom-table.m4a' }
       # { quote: '', file: '' },
       # { quote: '', file: '' },
       # { quote: '', file: '' },
