@@ -1,0 +1,22 @@
+doctype html
+html lang='en'
+  head
+    meta charset='utf-8'
+    title Tim Cook's Superlatives Soundboard
+    link href='css/styles.css' rel='stylesheet'
+    link href='css/fontawesome/css/font-awesome.min.css' rel='stylesheet'
+
+  body
+    header
+      h1 Tim Cook's Superlatives Soundboard
+
+    .container
+      - @superlatives.each do |superlative|
+        .superlative
+          .btn
+            i.fa.fa-play
+            audio src="audio/#{superlative[:file]}"
+          .subtitle = "\"#{superlative[:quote]}\""
+
+  script src='js/jquery.js'
+  script src='js/app.js'
