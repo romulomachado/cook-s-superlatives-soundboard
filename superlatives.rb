@@ -12,8 +12,8 @@ class Superlative
       { quote: 'It is so cool and so simple!', file: 'it-is-so-cool-and-so-simple.m4a' },
       { quote: 'The fit and finish are absolutely fabulous!', file: 'the-fit-and-finish-are-absolutely-fabulous.m4a' },
       { quote: 'Something unbelievable unique.', file: 'something-unbelievable-unique.m4a' },
-      { quote: 'This beautiful custom table!', file: 'this-beautiful-custom-table.m4a' }
-      # { quote: '', file: '' },
+      { quote: 'This beautiful custom table!', file: 'this-beautiful-custom-table.m4a' },
+      { quote: 'We are incredibly excited!', file: 'we-are-incredibly-excited.m4a' }
       # { quote: '', file: '' },
       # { quote: '', file: '' },
       # { quote: '', file: '' },
