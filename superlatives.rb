@@ -7,8 +7,8 @@ class Superlative
       { quote: 'It is unbelievable momentum!', file: 'it-is-unbelievable-momentum.m4a' },
       { quote: 'We are so proud to be a part of it.', file: 'we-are-so-proud.m4a' },
       { quote: 'It is really awesome!', file: 'it-is-really-awesome.m4a' },
-      { quote: 'It is absolutely gorgeous!', file: 'it-is-absolutely-gorgeous.m4a' }
-      # { quote: '', file: '' },
+      { quote: 'It is absolutely gorgeous!', file: 'it-is-absolutely-gorgeous.m4a' },
+      { quote: 'It has never been done before!', file: 'it-has-never-been-done-before.m4a' }
       # { quote: '', file: '' },
       # { quote: '', file: '' },
       # { quote: '', file: '' },
