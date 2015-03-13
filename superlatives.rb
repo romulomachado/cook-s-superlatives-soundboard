@@ -14,18 +14,6 @@ class Superlative
       { quote: 'Something unbelievable unique.', file: 'something-unbelievable-unique.m4a' },
       { quote: 'This beautiful custom table!', file: 'this-beautiful-custom-table.m4a' },
       { quote: 'We are incredibly excited!', file: 'we-are-incredibly-excited.m4a' }
-      # { quote: '', file: '' },
-      # { quote: '', file: '' },
-      # { quote: '', file: '' },
-      # { quote: '', file: '' },
-      # { quote: '', file: '' },
-      # { quote: '', file: '' },
-      # { quote: '', file: '' },
-      # { quote: '', file: '' },
-      # { quote: '', file: '' },
-      # { quote: '', file: '' },
-      # { quote: '', file: '' },
-      # { quote: '', file: '' }
     ]
   end
 end
