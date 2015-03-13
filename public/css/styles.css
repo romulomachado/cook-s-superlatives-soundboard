@@ -58,22 +58,6 @@ h1 {
 }
 
 @media only screen
-and (max-width : 320px) {
-  header {
-    background: black;
-    padding: 20px;
-  }
-
-  h1 {
-    font-size: 26px;
-  }
-
-  .superlative {
-    width: 50%;
-  }
-}
-
-@media only screen
 and (max-width : 1050px) {
   header {
     background: black;
@@ -106,3 +90,18 @@ and (max-width : 420px) {
   }
 }
 
+@media only screen
+and (max-width : 320px) {
+  header {
+    background: black;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  .superlative {
+    width: 50%;
+  }
+}
