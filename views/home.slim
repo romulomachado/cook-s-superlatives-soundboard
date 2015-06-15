@@ -13,12 +13,15 @@ html lang='en'
       h1 Tim Cook's Superlatives Soundboard
 
     .container
-      - @superlatives.each do |superlative|
-        .superlative
-          .btn
-            i.fa.fa-play
-            audio src="audio/#{superlative[:file]}"
-          .subtitle = "\"#{superlative[:quote]}\""
+      - @events.each do |event|
+        h2 = event[:title]
+
+        - event[:superlatives].each do |superlative|
+          .superlative
+            .btn
+              i.fa.fa-play
+              audio src="audio/#{superlative[:file]}"
+            .subtitle = "\"#{superlative[:quote]}\""
 
   script src='js/jquery.js'
   script src='js/app.js'
