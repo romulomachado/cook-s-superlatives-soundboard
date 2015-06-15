@@ -1,8 +1,8 @@
 require 'sinatra'
 require 'slim'
-require './superlatives'
+require './event'
 
 get '/' do
-  @superlatives = Superlative.all
+  @events = Event.all
   slim :home, format: :html5
 end
