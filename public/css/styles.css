@@ -92,6 +92,11 @@ and (max-width : 550px) {
 
 @media only screen
 and (max-width : 420px) {
+
+  .github--link {
+    display: none;
+  }
+
   .superlative {
     width: 50%;
   }
@@ -99,6 +104,10 @@ and (max-width : 420px) {
 
 @media only screen
 and (max-width : 320px) {
+  .github--link {
+    display: none;
+  }
+
   header {
     background: black;
     padding: 20px;
